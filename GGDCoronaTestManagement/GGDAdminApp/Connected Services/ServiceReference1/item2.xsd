@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CoronaHealthService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CoronaHealthService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfGgd">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Ggd" nillable="true" type="tns:Ggd" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGgd" nillable="true" type="tns:ArrayOfGgd" />
+  <xs:complexType name="Ggd">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AvailableCapacity" type="xs:int" />
+      <xs:element minOccurs="0" name="GgdCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GgdCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServicesProvided" type="tns:ServicesProvided" />
+      <xs:element minOccurs="0" name="TestCenterAddress" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Ggd" nillable="true" type="tns:Ggd" />
+  <xs:simpleType name="ServicesProvided">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CoronaTest" />
+      <xs:enumeration value="Vaccination" />
+      <xs:enumeration value="YouthCare" />
+      <xs:enumeration value="HealthResearch" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ServicesProvided" nillable="true" type="tns:ServicesProvided" />
+</xs:schema>

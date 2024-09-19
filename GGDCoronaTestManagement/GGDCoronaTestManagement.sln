@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoronaTestReservationApp", "CoronaTestReservationApp\CoronaTestReservationApp.csproj", "{B48C73C5-C438-460A-B19A-973434353D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GGDAdminApp", "GGDAdminApp\GGDAdminApp.csproj", "{5BBB747B-B93C-4D92-AE6A-7F3456CD0EF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B48C73C5-C438-460A-B19A-973434353D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48C73C5-C438-460A-B19A-973434353D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48C73C5-C438-460A-B19A-973434353D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48C73C5-C438-460A-B19A-973434353D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBB747B-B93C-4D92-AE6A-7F3456CD0EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBB747B-B93C-4D92-AE6A-7F3456CD0EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBB747B-B93C-4D92-AE6A-7F3456CD0EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBB747B-B93C-4D92-AE6A-7F3456CD0EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50B7FB08-2652-4511-A471-6BCDEBD83A16}
+	EndGlobalSection
+EndGlobal

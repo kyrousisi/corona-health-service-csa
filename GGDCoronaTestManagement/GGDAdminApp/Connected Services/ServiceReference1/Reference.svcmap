@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6b65c521-ecb9-4372-83ef-167e3674711f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/CoronaHealthService/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="350ce9e6-339f-4632-9793-1c094e19ecef" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CoronaHealthService/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="6322657d-c201-4d07-a4f0-019d59e7562c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CoronaHealthService/Service1/?xsd=xsd0" />
+    <MetadataFile FileName="CoronaHealthService.wsdl" MetadataType="Wsdl" ID="2574dd32-053f-4db5-88f6-698d5709ae42" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CoronaHealthService/Service1/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="ace14d14-7cf3-4160-a030-ec479b8fd224" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CoronaHealthService/Service1/?xsd=xsd2" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="a98d016b-276d-4b4b-b735-0035b8c6afb2" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CoronaHealthService/Service1/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
